@@ -61,7 +61,7 @@ From the scanner machine, run an appropriate Nmap scan against your own lab endp
 
 Example command:
 
-nmap -A -T4 <AUTHORIZED_LAB_TARGET_IP>
+nmap -A -T4 <AUTHORIZED_LAB_TARGET_IP:-[192.168.70.97]>
 
 Replace the placeholder with the IP address of your authorized test machine.
 
